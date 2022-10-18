@@ -28,8 +28,8 @@ TransactionHistory.propTypes = {
   transactionArr: PropTypes.arrayOf(
     PropTypes.shape({
       type: PropTypes.string,
-      amount: PropTypes.number,
-      currency: PropTypes.number,
+      amount: PropTypes.string,
+      currency: PropTypes.string,
     })
   ),
 };

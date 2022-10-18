@@ -1,1 +1,1 @@
-export { Statistics } from './DataStatistics';
+export * from './DataStatistics';
