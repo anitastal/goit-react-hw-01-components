@@ -1,0 +1,9 @@
+.transactionHistory{
+    margin: auto;
+}
+td, th{
+    border: 1px solid black;
+}
+td{
+    padding: 0px 10px;
+}
