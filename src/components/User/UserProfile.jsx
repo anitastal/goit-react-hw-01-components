@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import defaultImg from './defaultImg.png';
-import css from './user.module.css';
+import css from './User.module.css';
 
 export default function Profile({
   avatar = defaultImg,

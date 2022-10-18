@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import css from './transaction.module.css';
+import css from './Transaction.module.css';
 
 export default function TransactionHistory({ transactionArr }) {
   return (
@@ -25,7 +25,11 @@ export default function TransactionHistory({ transactionArr }) {
 }
 
 TransactionHistory.propTypes = {
-  type: PropTypes.string,
-  amount: PropTypes.number,
-  currency: PropTypes.number,
+  transactionArr: PropTypes.arrayOf(
+    PropTypes.shape({
+      type: PropTypes.string,
+      amount: PropTypes.number,
+      currency: PropTypes.number,
+    })
+  ),
 };
