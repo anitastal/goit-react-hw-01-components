@@ -1,1 +1,1 @@
-export * from './DataStatistics';
+export * from './Statistics';
